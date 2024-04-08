@@ -98,7 +98,6 @@ main {
 .actions {
   grid-area: actions;
 
-  border-bottom: 1px solid #ddd;
   padding: 0 1rem 0.5rem 1rem;
   color: #636363;
 
@@ -170,6 +169,7 @@ main {
   background-color: black;
   color: white;
   border-radius: 20px 20px;
+  font-size: 0.8rem;
 }
 
 .ad {
@@ -228,6 +228,7 @@ main {
       'video-player video-player  ad'
       'video-player video-player  up-next'
       'video-info   actions       up-next'
-      'channel      subscribe     up-next';
+      'channel      subscribe     up-next'
+      '.            .             up-next';
   }  
 }
