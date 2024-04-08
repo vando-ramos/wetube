@@ -168,8 +168,13 @@ main {
 }
 
 .ad {
-  background-color: purple;
   grid-area: ad;
+  margin: 1rem; 
+  padding: 3rem;
+  font-size: 24px;
+  text-align: center;
+  background-color: #2196f3;
+  color: white;
 }
 
 .up-next {
