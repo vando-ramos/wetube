@@ -124,8 +124,31 @@ main {
 }
 
 .channel {
-  background-color: yellow;
   grid-area: channel;
+
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  grid-gap: 1rem;
+}
+
+.channel img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.channel .date {
+  color: #777;
+  font-size: 0.8 rem;
+  margin-bottom: 1rem;
+}
+
+.channel .channel-description {
+  font-size: 0.8 rem;
 }
 
 .subscribe {
